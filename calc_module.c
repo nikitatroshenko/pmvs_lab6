@@ -9,7 +9,8 @@
 
 #define DRIVER_AUTHOR "Nikita Atroshenko <nikitatroshenko@github.com>"
 #define DRIVER_DESC "Simple calculator. Reads left operand from /dev/left "\
-			"rigth from /dev/right and operator from /dev/operator."
+			"right from /dev/right and operator from /dev/operator"\
+			". Results are stored in /proc/result."
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR(DRIVER_AUTHOR);
